@@ -1,4 +1,3 @@
---- application
 debug: true
 
 spring:
@@ -43,6 +42,3 @@ endpoints:
 #     hostname: ${vcap.application.uris[0]:localhost}
 #     nonSecurePort: 80
 
-endpoints:
-  shutdown:
-    enabled: true

@@ -1,4 +1,3 @@
---- zipkin-service
 server:
   port: 9411
 
