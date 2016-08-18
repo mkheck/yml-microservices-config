@@ -27,10 +27,11 @@ logging:
     org:
       springframework:
         security: DEBUG
-    # com:
-    #   netflix:
-    #     eureka: OFF
-    #     discovery: OFF
+
+# com:
+#   netflix:
+#     eureka: OFF
+#     discovery: OFF
 
 
 endpoints:
