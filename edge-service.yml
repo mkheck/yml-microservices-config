@@ -40,14 +40,14 @@ spring:
 security:
   user:
     password: starbucks
-#   oauth2:
-#     client:
-#       accessTokenUri: http://localhost:9999/uaa/oauth/token
-#       userAuthorizationUri: http://localhost:9999/uaa/oauth/authorize
-#       clientId: demo
-#       clientSecret: demosecret
-#     resource:
-#       userInfoUri: http://localhost:9999/uaa/user
+  oauth2:
+    client:
+      accessTokenUri: http://localhost:9999/uaa/oauth/token
+      userAuthorizationUri: http://localhost:9999/uaa/oauth/authorize
+      clientId: demo
+      clientSecret: demosecret
+    resource:
+      userInfoUri: http://localhost:9999/uaa/user
 
 # Misc
 quote: "Whatever the question, coffee is nearly always the answer."
