@@ -37,9 +37,9 @@ spring:
     port: 9411
     base-url: http://localhost:9411
 
-# security:
-#   user:
-#     password: starbucks
+security:
+  user:
+    password: starbucks
 #   oauth2:
 #     client:
 #       accessTokenUri: http://localhost:9999/uaa/oauth/token
