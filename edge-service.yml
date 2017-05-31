@@ -32,7 +32,7 @@ spring:
       bindings:
         output:
           destination: test
-	  content-type: application/json
+          contentType: application/json
   zipkin:
     host: localhost
     port: 9411
