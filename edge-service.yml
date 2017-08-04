@@ -51,4 +51,4 @@ spring:
 #       userInfoUri: http://localhost:9999/uaa/user
 
 # Misc
-quote: "Whatever the question, coffee is almost always the answer."
+quote: "Whatever the question, coffee is nearly always the answer."
