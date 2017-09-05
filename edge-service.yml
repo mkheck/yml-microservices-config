@@ -1,11 +1,11 @@
 server:
-  port: ${PORT:8086}
-  # ssl:
-  #   key-store: ${HOME}/dev/keystore.p12
-  #   key-store-password: starbucks
-  #   keyStoreType: PKCS12
-  #   keyAlias: tomcat
-  # port: ${PORT:8443}
+  # port: ${PORT:8086}
+  ssl:
+    key-store: ${HOME}/dev/keystore.p12
+    key-store-password: starbucks
+    keyStoreType: PKCS12
+    keyAlias: tomcat
+  port: ${PORT:8443}
 
 zuul:
   routes:
