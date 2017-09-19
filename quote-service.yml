@@ -1,5 +1,6 @@
 server:
   port: ${PORT:8088}
+  context-path: /
 
 spring:
   rabbitmq:

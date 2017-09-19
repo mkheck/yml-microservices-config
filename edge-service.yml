@@ -6,6 +6,7 @@ server:
   #   keyStoreType: PKCS12
   #   keyAlias: tomcat
   # port: ${PORT:8443}
+  # context-path: /edge
 
 zuul:
   routes:
