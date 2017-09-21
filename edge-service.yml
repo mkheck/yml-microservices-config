@@ -9,8 +9,8 @@ server:
   # context-path: /edge
 
 management:
-  security
-    :enabled: false
+  security:
+    enabled: false
 
 zuul:
   routes:

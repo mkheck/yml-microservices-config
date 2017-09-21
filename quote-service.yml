@@ -3,8 +3,8 @@ server:
   context-path: /
 
 management:
-  security
-    :enabled: false
+  security:
+    enabled: false
 
 spring:
   rabbitmq:
