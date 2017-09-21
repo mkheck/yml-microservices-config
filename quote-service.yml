@@ -2,6 +2,10 @@ server:
   port: ${PORT:8088}
   context-path: /
 
+management:
+  security
+    :enabled: false
+
 spring:
   rabbitmq:
     host: localhost

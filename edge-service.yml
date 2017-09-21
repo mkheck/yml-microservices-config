@@ -8,6 +8,10 @@ server:
   # port: ${PORT:8443}
   # context-path: /edge
 
+management:
+  security
+    :enabled: false
+
 zuul:
   routes:
     quote-service:
