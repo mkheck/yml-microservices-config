@@ -19,9 +19,9 @@ zuul:
     demo:
       path: /quote/**
       url: forward:/quotorama
-    user:
-      path: /user/**
-      url: http://localhost:9999/uaa/user
+    # user:
+    #   path: /user/**
+    #   url: http://localhost:9999/uaa/user
     # wx:
     #   path: /weather/**
     #   url: forward:http://api.openweathermap.org/data/2.5/find
