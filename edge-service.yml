@@ -46,6 +46,12 @@ spring:
         - Path=/qs/**
         filters:
         - RewritePath=/qs, /
+      - id: quote
+        uri: lb://quote-service:8088
+        predicates:
+        - Path=/quote
+        filters:
+        - RewritePath=/quote, /quotes/random
 
   zipkin:
     host: localhost
