@@ -40,11 +40,13 @@ spring:
           contentType: application/json
     gateway:
       routes:
-        uri: lb://quote-service
+      - id: qs
+        uri: lb://quote-service:8088
         predicates:
         - Path=/qs/**
         filters:
         - RewritePath=/qs, /
+
   zipkin:
     host: localhost
     port: 9411
