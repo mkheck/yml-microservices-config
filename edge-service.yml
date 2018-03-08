@@ -51,7 +51,7 @@ spring:
         predicates:
         - Path=/quote
         filters:
-        - Hystrix=fallbackcmd, /defaultquote
+        - Hystrix=fallbackcmd, forward:/defaultquote
         - RewritePath=/quote, /quotes/random
 
   zipkin:
