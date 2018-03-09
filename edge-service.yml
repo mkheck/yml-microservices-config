@@ -12,8 +12,8 @@ management:
   endpoints:
     web:
       exposure:
-        - include=*
-
+        include: *
+        
 zuul:
   routes:
     quote-service:
