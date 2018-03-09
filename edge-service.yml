@@ -8,12 +8,12 @@ server:
   # port: ${PORT:8443}
   # context-path: /edge
 
-management:
-  endpoints:
-    web:
-      exposure:
-        include: *
-        
+# management:
+#   endpoints:
+#     web:
+#       exposure:
+#         include: *
+
 zuul:
   routes:
     quote-service:
