@@ -3,9 +3,11 @@ server:
   context-path: /
 
 management:
-  security:
-    enabled: false
-
+  endpoints:
+    web:
+      exposure:
+        include: *
+        
 spring:
   rabbitmq:
     host: localhost

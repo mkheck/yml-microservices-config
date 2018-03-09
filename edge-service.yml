@@ -9,8 +9,10 @@ server:
   # context-path: /edge
 
 management:
-  security:
-    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: *
 
 zuul:
   routes:
