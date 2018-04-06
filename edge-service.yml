@@ -47,7 +47,7 @@ spring:
         predicates:
         - Path=/qs/**
         filters:
-        - RewritePath=/qs/, /
+        - RewritePath=/qs, /
       - id: quote
         uri: lb://quote-service:8088
         predicates:
