@@ -43,13 +43,13 @@ spring:
     gateway:
       routes:
       - id: qs
-        uri: lb://quote-service:8088
+        uri: lb://quote-service
         predicates:
         - Path=/qs/**
         filters:
         - RewritePath=/qs/, /
       - id: quote
-        uri: lb://quote-service:8088
+        uri: lb://quote-service
         predicates:
         - Path=/quote
         filters:
